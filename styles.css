@@ -1,0 +1,17 @@
+#container{
+  background-color:black;
+  width:100vw;
+  height:70vh;
+}
+#svg{
+  position:absolute;
+  top:35vh;
+  left:50vw;
+  transform: translate(-50%,-50%);
+}
+
+@keyframes line-anim{
+	to{
+		stroke-dashoffset:0;
+	}
+}
